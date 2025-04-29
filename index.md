@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: home
 title: "Selina Olivera"
 header:
   overlay_color: "#4a6c44"
