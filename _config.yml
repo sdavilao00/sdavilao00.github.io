@@ -3,10 +3,18 @@ email: "selina@example.edu"
 description: "PhD Candidate | Geomorphology and Sediment Transport"
 baseurl: ""
 url: "https://yourgithubusername.github.io"
-remote_theme: "mmistakes/minimal-mistakes"
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 markdown: kramdown
 permalink: /:categories/:title/
 minimal_mistakes_skin: "custom"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 author:
   name: "Selina Olivera"
@@ -19,8 +27,3 @@ footer:
       url: "https://github.com/yourgithubusername"
     - label: "Email"
       url: "mailto:selina@example.edu"
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
