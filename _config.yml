@@ -8,7 +8,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.13.0"
 
 markdown: kramdown
 permalink: /:categories/:title/
-minimal_mistakes_skin: "custom"
+minimal_mistakes_skin: "dirt"
 
 plugins:
   - jekyll-remote-theme
