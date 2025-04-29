@@ -4,7 +4,7 @@ description: "PhD Candidate | Geomorphology and Sediment Transport"
 baseurl: ""
 url: "https://yourgithubusername.github.io"
 
-remote_theme: "mmistakes/minimal-mistakes@4.20.2"
+remote_theme: "mmistakes/minimal-mistakes@4.13.0"
 
 markdown: kramdown
 permalink: /:categories/:title/
