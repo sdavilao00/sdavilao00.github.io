@@ -1,0 +1,26 @@
+title: "Selina Olivera"
+email: "selina@example.edu"
+description: "PhD Candidate | Geomorphology and Sediment Transport"
+baseurl: ""
+url: "https://yourgithubusername.github.io"
+remote_theme: "mmistakes/minimal-mistakes"
+markdown: kramdown
+permalink: /:categories/:title/
+minimal_mistakes_skin: "custom"
+
+author:
+  name: "Selina Olivera"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Studying hollow evolution and sediment flux in steep terrains."
+
+footer:
+  links:
+    - label: "GitHub"
+      url: "https://github.com/yourgithubusername"
+    - label: "Email"
+      url: "mailto:selina@example.edu"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
